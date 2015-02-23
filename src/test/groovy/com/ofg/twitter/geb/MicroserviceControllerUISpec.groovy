@@ -1,6 +1,6 @@
 package com.ofg.twitter.geb
 
-import com.ofg.twitter.Application
+import com.ofg.marketingoffergenerator.Application
 import com.ofg.twitter.geb.pages.SwaggerUIHomePage
 import geb.spock.GebSpec
 import groovy.json.JsonSlurper

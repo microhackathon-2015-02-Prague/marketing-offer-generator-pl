@@ -1,4 +1,4 @@
-package com.ofg.twitter
+package com.ofg.marketingoffergenerator
 
 import com.ofg.infrastructure.environment.EnvironmentSetupVerifier
 import groovy.transform.TypeChecked

@@ -1,7 +1,7 @@
 package com.ofg.twitter.geb
 
 import com.ofg.twitter.geb.pages.SwaggerUIHomePage
-import com.ofg.twitter.Application
+import com.ofg.marketingoffergenerator.Application
 import geb.spock.GebSpec
 import org.springframework.boot.test.IntegrationTest
 import org.springframework.boot.test.SpringApplicationContextLoader
