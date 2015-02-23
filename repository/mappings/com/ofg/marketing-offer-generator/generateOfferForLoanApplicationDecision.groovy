@@ -3,7 +3,7 @@ io.coderate.accurest.dsl.GroovyDsl.make {
         method 'PUT'
         url $(client(regex('/api/marketing/[0-9]{2}')), server('/api/marketing/12'))
         headers {
-            header 'Content-Type': 'application/vnd.com.ofg.twitter-places-analyzer.v1+json'
+            header 'Content-Type': 'application/json'
         }
         body '''\
     [{
