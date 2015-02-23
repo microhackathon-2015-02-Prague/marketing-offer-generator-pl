@@ -24,7 +24,7 @@ class SwaggerUIHomePage extends Page {
             $("li#microservice-configuration-controller_getMicroserviceConfiguration div.response_code pre")
         }
         showPairIdEndpoints { $("a#endpointListTogger_marketing") }
-        pairIdPutText { $("ul#pairid_endpoint_list span.path a") }
+        pairIdPutText { $("ul#marketing_endpoint_list span.path a") }
     }
 
 

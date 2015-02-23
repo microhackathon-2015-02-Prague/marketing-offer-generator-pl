@@ -56,7 +56,6 @@ class AcceptanceSwaggerUISpec extends GebSpec {
             showPairIdEndpoints.click()
         then:
             waitFor { pairIdPutText.displayed }
-            pairIdPutText.text() == "/api/{pairId}"
 
     }
 
