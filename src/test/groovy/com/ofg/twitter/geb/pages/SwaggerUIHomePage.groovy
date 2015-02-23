@@ -23,7 +23,7 @@ class SwaggerUIHomePage extends Page {
         microserviceGetResponseCode {
             $("li#microservice-configuration-controller_getMicroserviceConfiguration div.response_code pre")
         }
-        showPairIdEndpoints { $("a#endpointListTogger_pairid") }
+        showPairIdEndpoints { $("a#endpointListTogger_marketing") }
         pairIdPutText { $("ul#pairid_endpoint_list span.path a") }
     }
 

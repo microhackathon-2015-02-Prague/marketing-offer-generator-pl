@@ -46,7 +46,7 @@ class AcceptanceSwaggerUISpec extends GebSpec {
             showHealthMVCEndpoints.displayed
     }
 
-    def "Endpoint 'pairid' is visible"() {
+    def "Endpoint 'marketing' is visible"() {
         when:
             to SwaggerUIHomePage
         then:
